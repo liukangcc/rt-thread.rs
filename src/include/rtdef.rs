@@ -72,3 +72,18 @@ macro_rules! RT_FALSE {
         0
     };
 }
+
+
+#[macro_export]
+macro_rules! RT_WAITING_FOREVER {
+    () => {
+        -1
+    };
+}
+
+#[macro_export]
+macro_rules! RT_WAITING_NO {
+    () => {
+        0
+    };
+}
